@@ -1,6 +1,6 @@
 # This dockerfile uses the amazonlinux version 2 image
 # Base image to use
-FROM amazonlinux:latet  
+FROM amazonlinux:latest  
 # Inspiration from
 LABEL ref "https://github.com/sickp/docker-alpine-sshd"
 LABEL maintainer "sfgdsk@outlook.com"
