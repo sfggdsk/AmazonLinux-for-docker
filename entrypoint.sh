@@ -1,4 +1,4 @@
-vi /entrypoint.sh
+vi entrypoint.sh
 
 #!/bin/bash
 env > /tmp/env.txt
