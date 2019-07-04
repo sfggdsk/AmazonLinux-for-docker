@@ -1,4 +1,3 @@
-```
 # This dockerfile uses the amazonlinux version 2 image
 # Base image to use
 FROM amazonlinux:latet  
@@ -15,4 +14,3 @@ RUN yum install -y openssh-server aws-cli ec2-utils jq \
 && sed -i s/#PermitUserEnvironment.*/PermitUserEnvironment\ yes/ /etc/ssh/sshd_config
 ADD entrypoint.sh /entrypoint.sh
 ADD environment /root/.ssh/environment
-```
